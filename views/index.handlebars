@@ -1,0 +1,52 @@
+<div class="container bg-light mt-3">
+
+  <form action="/" method="POST">
+    <div class="card-deck">
+      <div class="row p-4">
+        <div class="card">
+          <label>
+            <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5668/angry-developer.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">工程師</h5>
+              <input type="radio" id="engineer" name="title" value="engineer">
+            </div>
+          </label>
+        </div>
+
+        <div class="card">
+          <label>
+            <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5667/angry-designer.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">設計師</h5>
+              <input type="radio" id="desinger" name="title" value="desinger">
+            </div>
+          </label>
+        </div>
+
+        <div class="card">
+          <label>
+            <img src="https://assets-lighthouse.s3.amazonaws.com/uploads/image/file/5669/angry-founder.jpg"
+              class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title">企業家</h5>
+              <input type="radio" id="entrepreneur" name="title" value="entrepreneur">
+            </div>
+          </label>
+        </div>
+      </div>
+
+    </div>
+    <div class="row p-2">
+      <div class="col-2">
+        <button id="submit-btn" type="submit" class="btn btn-primary">產生</button>
+      </div>
+      {{#if results}}
+      <div class="alert alert-info col-10 text-center" role="alert">
+        <span><span>{{results}}</span></code>
+      </div>
+      {{/if}}
+    </div>
+  </form>
+</div>
