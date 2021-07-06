@@ -4,7 +4,7 @@ User 可以選擇工程師、設計師及創業家三種時間，隨機產生幹
 ## Getting Started
 **Clone respository**
 ```
-$ git clone https://github.com/Dino0403/Express_Restaurant.git
+$ git clone https://github.com/Dino0403/Generate_Trash_Talk.git
 ```
 **Install by npm**
 ```
