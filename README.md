@@ -1,5 +1,5 @@
 ## Generate_Trash_Talk
-User 可以選擇工程師、設計師及創業家三種時間，隨機產生幹話
+User 可以選擇工程師、設計師及創業家三種職業，隨機產生幹話
 
 ## Getting Started
 **Clone respository**
